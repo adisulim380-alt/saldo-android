@@ -18,7 +18,7 @@ jobs:
 
       - name: Extract Saldo project
         run: |
-          unzip -q saldo_android_build_package_v6.zip -d /tmp/saldo-src
+          unzip -q saldo_android_build_package_v6-1.zip -d /tmp/saldo-src
           cp -R /tmp/saldo-src/saldo_android/. .
 
       - name: Set up Java
